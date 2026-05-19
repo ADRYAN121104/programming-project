@@ -21,7 +21,7 @@ if(isset($_POST['login'])){
         echo "
         <script>
             alert('Login berhasil');
-            window.location='dashboard.php';
+            window.location='INDEX.PHP';
         </script>
         ";
 

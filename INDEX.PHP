@@ -149,14 +149,6 @@ if(!isset($_SESSION['nama'])){
             border-bottom: 1px solid #ddd;
         }
 
-        .logout{
-            background: red;
-            color: white;
-            padding: 10px 18px;
-            border-radius: 8px;
-            text-decoration: none;
-        }
-
     </style>
 
 </head>
@@ -168,27 +160,27 @@ if(!isset($_SESSION['nama'])){
 
     <h2>MY DASHBOARD</h2>
 
-    <a href="#">
+    <a href="index.php">
         <i class="fa fa-home"></i>
         Dashboard
     </a>
 
-    <a href="#">
+    <a href="PROFIL.PHP">
         <i class="fa fa-user"></i>
         Profile
     </a>
 
-    <a href="#">
+    <a href="DATA.PHP">
         <i class="fa fa-database"></i>
         Data
     </a>
 
-    <a href="#">
+    <a href="STATISTIK.PHP">
         <i class="fa fa-chart-line"></i>
         Statistik
     </a>
 
-    <a href="logout.php">
+    <a href="LOGOUT.PHP">
         <i class="fa fa-sign-out-alt"></i>
         Logout
     </a>
@@ -257,7 +249,7 @@ if(!isset($_SESSION['nama'])){
 
             <tr>
                 <td>1</td>
-                <td>Malya</td>
+                <td>Ryan</td>
                 <td>Aktif</td>
             </tr>
 
